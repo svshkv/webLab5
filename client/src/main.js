@@ -65,6 +65,7 @@ let Editor = {
         .catch((error) => {
           alert(error.response.data)
         })
+      location.reload(true)
       // `event` — нативное событие DOM
     },
     changePost: function (post) {
@@ -87,6 +88,7 @@ let Editor = {
         .catch((error) => {
           alert(error.response.data)
         })
+      location.reload(true)
     }
   },
   template: `
